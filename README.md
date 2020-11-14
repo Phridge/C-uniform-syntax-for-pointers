@@ -12,8 +12,7 @@ In C, a '\*' in a variable declaration could mean two things:
 * a pointer to a character array
 * a pointer to a single char
 
-Anyone reading this code might guess from the name of the variable that this is a character array, but with unconventional types any variable names, things get hard to read quickly. Yeah, you could just write a comment to say what this type expresses... until you notice that functions have parameters.
-So how do you tell the reader of your code quickly and efficiently what exact types you're using?
+Anyone reading this code might guess from the name of the variable that this is a character array, but with unconventional types any variable names, things get hard to read quickly. Yeah, you could just write a comment to say what this type expresses... but some people are too lazy to write a lot of documentation or are to lazy to read it. So how do you tell the reader of your code quickly and efficiently what exact types you're using?
 
 ## General idea
 
@@ -47,11 +46,11 @@ Yes, you could just put a comment above the function that uses double indirectio
 
 ### This looks so ugly!
 
-It's  probeably a different convention than you use, so it's unfamiliar to you. No problem. The code might look 'uglier', but at least it differentiates pointer types correctly.
+It's  probeably a different convention than you use, so it's unfamiliar to you. No problem. Your code might look 'uglier', but at least it differentiates pointer types correctly.
 
 ### Why not use '\[' and '\]' instead of some weird whitespace placement?
 
-Because thats not how C variable syntax works. In Java, this works actually, but Java has no pointer syntax, so...
+Because thats not how C variable syntax works. You can do this in Java, but Java has no pointers, so...
 
 More criticism is welcomed.
 
