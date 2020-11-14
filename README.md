@@ -43,4 +43,4 @@ Because thats not how C variable syntax works. In Java, this works actually, but
 
 Other criticism is welcomed.
 
-Have a nice day! :waving_hand:
+Have a nice day! :waving:
