@@ -1,10 +1,10 @@
-# C-uniform-syntax-for-pointers
+# Uniform pointer syntax for c variables/fields/parameters
 My strategy of declaring pointer/array/pointer array/etc. variables or fields in C.
 
 I recently came up with this idea that might help to solve the confusion when declaring any sort of pointer in C.
 
 ## The problem
-`char \*str;`
+`char *str;`
 In C, a '\*' in a variable declaration could mean two things: 
 * a pointer to a character array
 * a pointer to a single char
