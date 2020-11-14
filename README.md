@@ -55,5 +55,3 @@ Because thats not how C variable syntax works. You can do this in Java, but Java
 More criticism is welcomed.
 
 Have a nice day!
-
-#c #pointer #syntax #convention
