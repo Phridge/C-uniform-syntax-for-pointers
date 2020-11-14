@@ -41,6 +41,6 @@ It's  probeably a different convention than you use, so it's unfamiliar to you. 
 ### Why not use '\[' and '\]' instead of some weird whitespace placement?
 Because thats not how C variable syntax works. In Java, this works actually, but Java has no pointer syntax, so...
 
-Other criticism is welcomed.
+More criticism is welcomed.
 
-Have a nice day! :waving:
+Have a nice day!
