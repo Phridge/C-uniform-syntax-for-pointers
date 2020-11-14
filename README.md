@@ -35,7 +35,7 @@ Lets examine the last example:
 1. `int *` is a int pointer, because of the ' \*', which stands for *pointer*
 1. `int **` is a int pointer *array*, because of the ' \*' for *pointer* and the following '\*' which stands for *array*
 1. `int ** *` consists of ' \*', '\*' and ' \*'
-1. `int ** **` consists of ' \*', '\*', ' \*' and '\*'
+1. `int ** **` consists of ' \*', '\*', ' \*' and '\*', so you've got a int *pointer array pointer array*.
 
 Makes sense, doesn't it?
 
